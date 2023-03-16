@@ -8,15 +8,26 @@
             border: 2px solid black; border-collapse: collapse; text-align: center;
         }
         .subject1{
-            background-color: lightgray;
-            font-size: small;
+            background-color: #8c9395;
         }
         .subject2{
             background-color: #FAF4C0;
-            font-size: small;
+        }
+        .subject3{
+            background-color: wheat;
+        }
+        .subject4{
+            background-color: palegreen;
+        }
+        .subject5{
+            background-color: powderblue;
+        }
+        .subject6{
+            background-color: #BDFCC9;
         }
         th,td{
-            width: 50px;
+            width: 100px;
+            height: 50px;
         }
     </style>
     <title>HTML5 시간표</title>
@@ -39,7 +50,7 @@
                 <td>1교시</td>
                 <td></td>
                 <td></td>
-                <td class="subject2" style="font-size: 12px;">운영체제</td>
+                <td class="subject1">운영체제</td>
                 <td></td>
                 <td rowspan="3" class="subject2">모바일프로그래밍</td>
             </tr>
@@ -47,19 +58,19 @@
                 <td>2교시</td>
                 <td></td>
                 <td></td>
-                <td class="subject2" style="font-size:5px;">데이터베이스시스템</td>
+                <td class="subject3">데이터베이스시스템</td>
 
             </tr>
             <tr>
                 <td>3교시</td>
-                <td rowspan="2" class="subject1">영어회화2</td>
+                <td rowspan="2" class="subject4">영어회화2</td>
                 <td></td>
                 <td></td>
 
             </tr>
             <tr>
                 <td>4교시</td>
-                <td rowspan="3" class="subject1">통계의활용</td>
+                <td rowspan="3" class="subject5">통계의활용</td>
                 <td></td>
                 <td></td>
 
@@ -68,7 +79,7 @@
                 <td>5교시</td>
                 <td></td>
                 <td></td>
-                <td rowspan="3" class="subject2">인터넷응용</td>
+                <td rowspan="3" class="subject6">인터넷응용</td>
 
             </tr>
             <tr>
@@ -81,13 +92,13 @@
             <tr>
                 <td>7교시</td>
                 <td></td>
-                <td rowspan="2" class="subject2" style="font-size: 10px;">데이터베이스시스템</td>
+                <td rowspan="2" class="subject3">데이터베이스시스템</td>
                 <td></td>
 
             </tr>
             <tr>
                 <td>8교시</td>
-                <td rowspan="2" class="subject2">운영체제</td>
+                <td rowspan="2" class="subject1">운영체제</td>
                 <td></td>
                 <td></td>
 
